@@ -1,0 +1,31 @@
+services:
+  app.bcrypt:
+    class: CoreBundle\Lib\Bcrypt
+  app.sign_in_parser:
+    class: CoreBundle\Components\Api\SignInParser
+  app.sign_up_parser:
+    class: CoreBundle\Components\Api\SignUpParser
+  app.authorization_service:
+    class: CoreBundle\Components\Api\AuthorizationService
+    arguments:
+      - '@app.user_model'
+      - '@app.bcrypt'
+      - '@app.session_helper'
+  app.session_helper:
+    class: CoreBundle\Helper\SessionHelper
+  app.validation_parser:
+    class: CoreBundle\Validators\ValidatorParser
+  app.authentication_validator:
+    class: CoreBundle\Validators\AuthenticationValidator
+    arguments:
+      - '@app.validator'
+      - '@app.validation_parser'
+  app.registration_validator:
+    class: CoreBundle\Validators\RegistrationValidator
+    arguments:
+      - '@app.validator'
+      - '@app.validation_parser'
+  app.registration_service:
+    class: CoreBundle\Components\Api\RegistrationService
+    arguments:
+      - '@app.bcrypt'

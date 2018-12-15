@@ -1,0 +1,21 @@
+parameters:
+  environment: 'dev'
+  db:
+      default:
+          host: localhost
+          name: ecommerce
+          user: root
+          password: null
+  mailer.host: 'smtp.gmail.com'
+  mailer.port: 587
+  mailer.secure: 'tls'
+  mailer.username: 'office.leashoes@gmail.com'
+  mailer.password: 'Leailana12.'
+  social:
+      google_analytics: UA-30220987-1
+  corvus_payment:
+      store_id: 5491
+      secret_key: E97TuR7yGqG8ot5TEBkAU6WPj
+      payment_url: https://cps.corvus.hr/redirect/
+  upload_path:
+      product_dir: '/Proizvodi'

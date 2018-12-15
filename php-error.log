@@ -1,0 +1,280 @@
+[15-Dec-2018 13:06:07 UTC] PHP Fatal error:  Interface 'CoreBundle\Interfaces\ContainerInterface' not found in /Users/vladanzivanovic/Sites/e-commerce/src/Core/Container.php on line 16
+[15-Dec-2018 13:06:53 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method CoreBundle\Factory\SignInFactory::getindexInstance() in /Users/vladanzivanovic/Sites/e-commerce/src/Lib/LeaRouter.php:17
+Stack trace:
+#0 /Users/vladanzivanovic/Sites/e-commerce/index.php(10): CoreBundle\Lib\LeaRouter->match()
+#1 /Users/vladanzivanovic/.composer/vendor/laravel/valet/server.php(151): require('/Users/vladanzi...')
+#2 {main}
+  thrown in /Users/vladanzivanovic/Sites/e-commerce/src/Lib/LeaRouter.php on line 17
+[15-Dec-2018 13:07:58 UTC] PHP Deprecated:  Non-static method CoreBundle\Factory\SignInFactory::index() should not be called statically in /Users/vladanzivanovic/Sites/e-commerce/src/Lib/LeaRouter.php on line 17
+[15-Dec-2018 13:07:58 UTC] PHP Warning:  require(../../sign-in.php): failed to open stream: No such file or directory in /Users/vladanzivanovic/Sites/e-commerce/src/Factory/SignInFactory.php on line 11
+[15-Dec-2018 13:07:58 UTC] PHP Fatal error:  require(): Failed opening required '../../sign-in.php' (include_path='.:/usr/local/Cellar/php@7.2/7.2.13/share/php@7.2/pear') in /Users/vladanzivanovic/Sites/e-commerce/src/Factory/SignInFactory.php on line 11
+[15-Dec-2018 13:08:14 UTC] PHP Warning:  require(../../sign-in.php): failed to open stream: No such file or directory in /Users/vladanzivanovic/Sites/e-commerce/src/Factory/SignInFactory.php on line 11
+[15-Dec-2018 13:08:14 UTC] PHP Fatal error:  require(): Failed opening required '../../sign-in.php' (include_path='.:/usr/local/Cellar/php@7.2/7.2.13/share/php@7.2/pear') in /Users/vladanzivanovic/Sites/e-commerce/src/Factory/SignInFactory.php on line 11
+[15-Dec-2018 13:08:58 UTC] PHP Warning:  require_once(/Users/vladanzivanovic/Sites/e-commerce): failed to open stream: No such file or directory in /Users/vladanzivanovic/Sites/e-commerce/src/Factory/SignInFactory.php on line 11
+[15-Dec-2018 13:08:58 UTC] PHP Fatal error:  require_once(): Failed opening required '' (include_path='.:/usr/local/Cellar/php@7.2/7.2.13/share/php@7.2/pear') in /Users/vladanzivanovic/Sites/e-commerce/src/Factory/SignInFactory.php on line 11
+[15-Dec-2018 13:09:15 UTC] PHP Warning:  require_once(/Users/vladanzivanovic/Sites/e-commerce): failed to open stream: No such file or directory in /Users/vladanzivanovic/Sites/e-commerce/src/Factory/SignInFactory.php on line 11
+[15-Dec-2018 13:09:15 UTC] PHP Fatal error:  require_once(): Failed opening required '' (include_path='.:/usr/local/Cellar/php@7.2/7.2.13/share/php@7.2/pear') in /Users/vladanzivanovic/Sites/e-commerce/src/Factory/SignInFactory.php on line 11
+[15-Dec-2018 13:09:35 UTC] PHP Warning:  require(../../sign-in.php): failed to open stream: No such file or directory in /Users/vladanzivanovic/Sites/e-commerce/src/Factory/SignInFactory.php on line 11
+[15-Dec-2018 13:09:35 UTC] PHP Fatal error:  require(): Failed opening required '../../sign-in.php' (include_path='.:/usr/local/Cellar/php@7.2/7.2.13/share/php@7.2/pear') in /Users/vladanzivanovic/Sites/e-commerce/src/Factory/SignInFactory.php on line 11
+[15-Dec-2018 13:15:34 UTC] PHP Fatal error:  Uncaught Error: Class 'CoreBundle\Factory\SignInFactory' not found in /Users/vladanzivanovic/Sites/e-commerce/src/Lib/LeaRouter.php:17
+Stack trace:
+#0 /Users/vladanzivanovic/Sites/e-commerce/index.php(10): CoreBundle\Lib\LeaRouter->match()
+#1 /Users/vladanzivanovic/.composer/vendor/laravel/valet/server.php(151): require('/Users/vladanzi...')
+#2 {main}
+  thrown in /Users/vladanzivanovic/Sites/e-commerce/src/Lib/LeaRouter.php on line 17
+[15-Dec-2018 13:15:44 UTC] PHP Warning:  require_once(/Users/vladanzivanovic/Sites/e-commerce/src/Factory/Pages/../../Resources/Views/sign-in.php.php): failed to open stream: No such file or directory in /Users/vladanzivanovic/Sites/e-commerce/src/Factory/Pages/SignInFactory.php on line 12
+[15-Dec-2018 13:15:44 UTC] PHP Fatal error:  require_once(): Failed opening required '/Users/vladanzivanovic/Sites/e-commerce/src/Factory/Pages/../../Resources/Views/sign-in.php.php' (include_path='.:/usr/local/Cellar/php@7.2/7.2.13/share/php@7.2/pear') in /Users/vladanzivanovic/Sites/e-commerce/src/Factory/Pages/SignInFactory.php on line 12
+[15-Dec-2018 13:16:46 UTC] PHP Warning:  require_once(/Users/vladanzivanovic/Sites/e-commerce./src/Resources/Views/header.php): failed to open stream: No such file or directory in /Users/vladanzivanovic/Sites/e-commerce/index.php on line 10
+[15-Dec-2018 13:16:46 UTC] PHP Fatal error:  require_once(): Failed opening required '/Users/vladanzivanovic/Sites/e-commerce./src/Resources/Views/header.php' (include_path='.:/usr/local/Cellar/php@7.2/7.2.13/share/php@7.2/pear') in /Users/vladanzivanovic/Sites/e-commerce/index.php on line 10
+[15-Dec-2018 13:42:46 UTC] PHP Deprecated:  Non-static method CoreBundle\Factory\Api\SignInFactory::signIn() should not be called statically in /Users/vladanzivanovic/Sites/e-commerce/src/Lib/LeaRouter.php on line 17
+[15-Dec-2018 13:42:46 UTC] PHP Fatal error:  Uncaught Error: Using $this when not in object context in /Users/vladanzivanovic/Sites/e-commerce/src/Factory/Api/SignInFactory.php:11
+Stack trace:
+#0 /Users/vladanzivanovic/Sites/e-commerce/src/Lib/LeaRouter.php(17): CoreBundle\Factory\Api\SignInFactory::signIn()
+#1 /Users/vladanzivanovic/Sites/e-commerce/index.php(13): CoreBundle\Lib\LeaRouter->match()
+#2 /Users/vladanzivanovic/.composer/vendor/laravel/valet/server.php(151): require('/Users/vladanzi...')
+#3 {main}
+  thrown in /Users/vladanzivanovic/Sites/e-commerce/src/Factory/Api/SignInFactory.php on line 11
+[15-Dec-2018 13:47:10 UTC] PHP Deprecated:  Non-static method CoreBundle\Factory\Api\SignInFactory::signIn() should not be called statically in /Users/vladanzivanovic/Sites/e-commerce/src/Lib/LeaRouter.php on line 17
+[15-Dec-2018 13:47:10 UTC] PHP Fatal error:  Uncaught Error: Using $this when not in object context in /Users/vladanzivanovic/Sites/e-commerce/src/Factory/Api/SignInFactory.php:22
+Stack trace:
+#0 /Users/vladanzivanovic/Sites/e-commerce/src/Lib/LeaRouter.php(17): CoreBundle\Factory\Api\SignInFactory::signIn()
+#1 /Users/vladanzivanovic/Sites/e-commerce/index.php(13): CoreBundle\Lib\LeaRouter->match()
+#2 /Users/vladanzivanovic/.composer/vendor/laravel/valet/server.php(151): require('/Users/vladanzi...')
+#3 {main}
+  thrown in /Users/vladanzivanovic/Sites/e-commerce/src/Factory/Api/SignInFactory.php on line 22
+[15-Dec-2018 13:48:21 UTC] PHP Fatal error:  Uncaught Error: Class 'CoreBundle\Factory\Api\SignInFactory#signIn' not found in /Users/vladanzivanovic/Sites/e-commerce/src/Lib/LeaRouter.php:17
+Stack trace:
+#0 /Users/vladanzivanovic/Sites/e-commerce/index.php(13): CoreBundle\Lib\LeaRouter->match()
+#1 /Users/vladanzivanovic/.composer/vendor/laravel/valet/server.php(151): require('/Users/vladanzi...')
+#2 {main}
+  thrown in /Users/vladanzivanovic/Sites/e-commerce/src/Lib/LeaRouter.php on line 17
+[15-Dec-2018 13:48:33 UTC] PHP Fatal error:  Uncaught Symfony\Component\Config\Exception\FileLocatorFileNotFoundException: The file "core_params_dev.yml" does not exist (in: /Users/vladanzivanovic/Sites/e-commerce/src/Core/../Resources/Config). in /Users/vladanzivanovic/Sites/e-commerce/vendor/symfony/config/FileLocator.php:71
+Stack trace:
+#0 /Users/vladanzivanovic/Sites/e-commerce/vendor/symfony/config/Loader/FileLoader.php(136): Symfony\Component\Config\FileLocator->locate('core_params_dev...', '/Users/vladanzi...', false)
+#1 /Users/vladanzivanovic/Sites/e-commerce/vendor/symfony/config/Loader/FileLoader.php(90): Symfony\Component\Config\Loader\FileLoader->doImport('core_params_dev...', NULL, false, '/Users/vladanzi...')
+#2 /Users/vladanzivanovic/Sites/e-commerce/vendor/symfony/dependency-injection/Loader/YamlFileLoader.php(196): Symfony\Component\Config\Loader\FileLoader->import('core_params_dev...', NULL, false, '/Users/vladanzi...')
+#3 /Users/vladanzivanovic/Sites/e-commerce/vendor/symfony/dependency-injection/Loader/YamlFileLoader.php(127): Symfon in /Users/vladanzivanovic/Sites/e-commerce/vendor/symfony/config/Loader/FileLoader.php on line 168
+[15-Dec-2018 14:29:31 UTC] PHP Fatal error:  Uncaught Symfony\Component\DependencyInjection\Exception\ServiceNotFoundException: You have requested a non-existent service "app.authorization_service". in /Users/vladanzivanovic/Sites/e-commerce/vendor/symfony/dependency-injection/ContainerBuilder.php:1053
+Stack trace:
+#0 /Users/vladanzivanovic/Sites/e-commerce/vendor/symfony/dependency-injection/ContainerBuilder.php(619): Symfony\Component\DependencyInjection\ContainerBuilder->getDefinition('app.authorizati...')
+#1 /Users/vladanzivanovic/Sites/e-commerce/vendor/symfony/dependency-injection/ContainerBuilder.php(587): Symfony\Component\DependencyInjection\ContainerBuilder->doGet('app.authorizati...', 1)
+#2 /Users/vladanzivanovic/Sites/e-commerce/src/Core/Container.php(63): Symfony\Component\DependencyInjection\ContainerBuilder->get('app.authorizati...')
+#3 /Users/vladanzivanovic/Sites/e-commerce/src/Factory/Api/SignInFactory.php(25): CoreBundle\Core\Container->getServices('app.authorizati...')
+#4 /Users/vladanzivanovic/Sites/e-commerce/src/Factory/Api/SignIn in /Users/vladanzivanovic/Sites/e-commerce/vendor/symfony/dependency-injection/ContainerBuilder.php on line 1053
+[15-Dec-2018 14:30:15 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function CoreBundle\Components\Api\AuthorizationService::__construct(), 0 passed and exactly 2 expected in /Users/vladanzivanovic/Sites/e-commerce/src/Components/Api/AuthorizationService.php:19
+Stack trace:
+#0 [internal function]: CoreBundle\Components\Api\AuthorizationService->__construct()
+#1 /Users/vladanzivanovic/Sites/e-commerce/vendor/symfony/dependency-injection/ContainerBuilder.php(1169): ReflectionClass->newInstanceArgs(Array)
+#2 /Users/vladanzivanovic/Sites/e-commerce/vendor/symfony/dependency-injection/ContainerBuilder.php(633): Symfony\Component\DependencyInjection\ContainerBuilder->createService(Object(Symfony\Component\DependencyInjection\Definition), Array, true, 'app.authorizati...')
+#3 /Users/vladanzivanovic/Sites/e-commerce/vendor/symfony/dependency-injection/ContainerBuilder.php(587): Symfony\Component\DependencyInjection\ContainerBuilder->doGet('app.authorizati...', 1)
+#4 /Users/vladanzivanovic/Sites/e-commerce/src/Core/Container.php(63): S in /Users/vladanzivanovic/Sites/e-commerce/src/Components/Api/AuthorizationService.php on line 19
+[15-Dec-2018 14:31:26 UTC] PHP Fatal error:  Uncaught TypeError: Argument 1 passed to CoreBundle\Components\Api\AuthorizationService::__construct() must be an instance of CoreBundle\Model\UserModel, string given in /Users/vladanzivanovic/Sites/e-commerce/src/Components/Api/AuthorizationService.php:19
+Stack trace:
+#0 [internal function]: CoreBundle\Components\Api\AuthorizationService->__construct('app.user_model', 'app.bcrypt')
+#1 /Users/vladanzivanovic/Sites/e-commerce/vendor/symfony/dependency-injection/ContainerBuilder.php(1169): ReflectionClass->newInstanceArgs(Array)
+#2 /Users/vladanzivanovic/Sites/e-commerce/vendor/symfony/dependency-injection/ContainerBuilder.php(633): Symfony\Component\DependencyInjection\ContainerBuilder->createService(Object(Symfony\Component\DependencyInjection\Definition), Array, true, 'app.authorizati...')
+#3 /Users/vladanzivanovic/Sites/e-commerce/vendor/symfony/dependency-injection/ContainerBuilder.php(587): Symfony\Component\DependencyInjection\ContainerBuilder->doGet('app.authorizati...', 1)
+#4 /Users/vladanzivanovic/Sit in /Users/vladanzivanovic/Sites/e-commerce/src/Components/Api/AuthorizationService.php on line 19
+[15-Dec-2018 14:35:04 UTC] PHP Warning:  Use of undefined constant DB_HOST - assumed 'DB_HOST' (this will throw an Error in a future version of PHP) in /Users/vladanzivanovic/Sites/e-commerce/src/Core/Data.php on line 55
+[15-Dec-2018 14:35:04 UTC] PHP Warning:  Use of undefined constant DB_NAME - assumed 'DB_NAME' (this will throw an Error in a future version of PHP) in /Users/vladanzivanovic/Sites/e-commerce/src/Core/Data.php on line 55
+[15-Dec-2018 14:35:04 UTC] PHP Warning:  Use of undefined constant DB_USER - assumed 'DB_USER' (this will throw an Error in a future version of PHP) in /Users/vladanzivanovic/Sites/e-commerce/src/Core/Data.php on line 56
+[15-Dec-2018 14:35:04 UTC] PHP Warning:  Use of undefined constant DB_PASS - assumed 'DB_PASS' (this will throw an Error in a future version of PHP) in /Users/vladanzivanovic/Sites/e-commerce/src/Core/Data.php on line 57
+[15-Dec-2018 14:35:04 UTC] PHP Fatal error:  Uncaught Error: Class 'CoreBundle\Core\PDO' not found in /Users/vladanzivanovic/Sites/e-commerce/src/Core/Data.php:58
+Stack trace:
+#0 /Users/vladanzivanovic/Sites/e-commerce/src/Core/Data.php(232): CoreBundle\Core\Data->__construct('default')
+#1 /Users/vladanzivanovic/Sites/e-commerce/src/Core/ModelCore.php(12): CoreBundle\Core\Data::getInstance()
+#2 [internal function]: CoreBundle\Core\ModelCore->__construct()
+#3 /Users/vladanzivanovic/Sites/e-commerce/vendor/symfony/dependency-injection/ContainerBuilder.php(1169): ReflectionClass->newInstanceArgs(Array)
+#4 /Users/vladanzivanovic/Sites/e-commerce/vendor/symfony/dependency-injection/ContainerBuilder.php(633): Symfony\Component\DependencyInjection\ContainerBuilder->createService(Object(Symfony\Component\DependencyInjection\Definition), Array, true, 'app.user_model')
+#5 /Users/vladanzivanovic/Sites/e-commerce/vendor/symfony/dependency-injection/ContainerBuilder.php(1274): Symfony\Component\DependencyInjection\ContainerBuilder->doGet('app.user_model', 1, Array,  in /Users/vladanzivanovic/Sites/e-commerce/src/Core/Data.php on line 58
+[15-Dec-2018 14:40:22 UTC] PHP Fatal error:  Uncaught Error: Class 'CoreBundle\Core\PDO' not found in /Users/vladanzivanovic/Sites/e-commerce/src/Core/Data.php:61
+Stack trace:
+#0 /Users/vladanzivanovic/Sites/e-commerce/src/Core/Data.php(235): CoreBundle\Core\Data->__construct('default')
+#1 /Users/vladanzivanovic/Sites/e-commerce/src/Core/ModelCore.php(12): CoreBundle\Core\Data::getInstance()
+#2 [internal function]: CoreBundle\Core\ModelCore->__construct()
+#3 /Users/vladanzivanovic/Sites/e-commerce/vendor/symfony/dependency-injection/ContainerBuilder.php(1169): ReflectionClass->newInstanceArgs(Array)
+#4 /Users/vladanzivanovic/Sites/e-commerce/vendor/symfony/dependency-injection/ContainerBuilder.php(633): Symfony\Component\DependencyInjection\ContainerBuilder->createService(Object(Symfony\Component\DependencyInjection\Definition), Array, true, 'app.user_model')
+#5 /Users/vladanzivanovic/Sites/e-commerce/vendor/symfony/dependency-injection/ContainerBuilder.php(1274): Symfony\Component\DependencyInjection\ContainerBuilder->doGet('app.user_model', 1, Array,  in /Users/vladanzivanovic/Sites/e-commerce/src/Core/Data.php on line 61
+[15-Dec-2018 14:41:03 UTC] PHP Fatal error:  Uncaught Symfony\Component\DependencyInjection\Exception\ServiceNotFoundException: You have requested a non-existent service "app.bcrypt". in /Users/vladanzivanovic/Sites/e-commerce/vendor/symfony/dependency-injection/ContainerBuilder.php:1053
+Stack trace:
+#0 /Users/vladanzivanovic/Sites/e-commerce/vendor/symfony/dependency-injection/ContainerBuilder.php(619): Symfony\Component\DependencyInjection\ContainerBuilder->getDefinition('app.bcrypt')
+#1 /Users/vladanzivanovic/Sites/e-commerce/vendor/symfony/dependency-injection/ContainerBuilder.php(1274): Symfony\Component\DependencyInjection\ContainerBuilder->doGet('app.bcrypt', 1, Array, true)
+#2 /Users/vladanzivanovic/Sites/e-commerce/vendor/symfony/dependency-injection/ContainerBuilder.php(1231): Symfony\Component\DependencyInjection\ContainerBuilder->doResolveServices(Object(Symfony\Component\DependencyInjection\Reference), Array, true)
+#3 /Users/vladanzivanovic/Sites/e-commerce/vendor/symfony/dependency-injection/ContainerBuilder.php(1142): Symfony\Component\De in /Users/vladanzivanovic/Sites/e-commerce/vendor/symfony/dependency-injection/ContainerBuilder.php on line 1053
+[15-Dec-2018 14:41:43 UTC] PHP Fatal error:  Uncaught Error: Class 'CoreBundle\Entitites\User' not found in /Users/vladanzivanovic/Sites/e-commerce/src/Model/UserModel.php:18
+Stack trace:
+#0 /Users/vladanzivanovic/Sites/e-commerce/src/Components/Api/AuthorizationService.php(35): CoreBundle\Model\UserModel->getUser('vladapoz85@gmai...')
+#1 /Users/vladanzivanovic/Sites/e-commerce/src/Factory/Api/SignInFactory.php(50): CoreBundle\Components\Api\AuthorizationService->authorizeUser('vladapoz85@gmai...', 'fsdfsdf')
+#2 [internal function]: CoreBundle\Factory\Api\SignInFactory->signIn(Object(Symfony\Component\HttpFoundation\Request))
+#3 /Users/vladanzivanovic/Sites/e-commerce/src/Lib/TestRouter.php(18): call_user_func_array(Array, Array)
+#4 /Users/vladanzivanovic/Sites/e-commerce/index.php(13): CoreBundle\Lib\TestRouter->match()
+#5 /Users/vladanzivanovic/.composer/vendor/laravel/valet/server.php(151): require('/Users/vladanzi...')
+#6 {main}
+  thrown in /Users/vladanzivanovic/Sites/e-commerce/src/Model/UserModel.php on line 18
+[15-Dec-2018 14:41:49 UTC] PHP Fatal error:  Uncaught Error: Class 'CoreBundle\Entitites\User' not found in /Users/vladanzivanovic/Sites/e-commerce/src/Model/UserModel.php:18
+Stack trace:
+#0 /Users/vladanzivanovic/Sites/e-commerce/src/Components/Api/AuthorizationService.php(35): CoreBundle\Model\UserModel->getUser('vladapoz85@gmai...')
+#1 /Users/vladanzivanovic/Sites/e-commerce/src/Factory/Api/SignInFactory.php(50): CoreBundle\Components\Api\AuthorizationService->authorizeUser('vladapoz85@gmai...', 'fsdfsdf')
+#2 [internal function]: CoreBundle\Factory\Api\SignInFactory->signIn(Object(Symfony\Component\HttpFoundation\Request))
+#3 /Users/vladanzivanovic/Sites/e-commerce/src/Lib/TestRouter.php(18): call_user_func_array(Array, Array)
+#4 /Users/vladanzivanovic/Sites/e-commerce/index.php(13): CoreBundle\Lib\TestRouter->match()
+#5 /Users/vladanzivanovic/.composer/vendor/laravel/valet/server.php(151): require('/Users/vladanzi...')
+#6 {main}
+  thrown in /Users/vladanzivanovic/Sites/e-commerce/src/Model/UserModel.php on line 18
+[15-Dec-2018 14:42:19 UTC] PHP Fatal error:  Uncaught Error: Class 'CoreBundle\Entitites\User' not found in /Users/vladanzivanovic/Sites/e-commerce/src/Model/UserModel.php:18
+Stack trace:
+#0 /Users/vladanzivanovic/Sites/e-commerce/src/Components/Api/AuthorizationService.php(35): CoreBundle\Model\UserModel->getUser('vladapoz85@gmai...')
+#1 /Users/vladanzivanovic/Sites/e-commerce/src/Factory/Api/SignInFactory.php(50): CoreBundle\Components\Api\AuthorizationService->authorizeUser('vladapoz85@gmai...', 'fsdfsdf')
+#2 [internal function]: CoreBundle\Factory\Api\SignInFactory->signIn(Object(Symfony\Component\HttpFoundation\Request))
+#3 /Users/vladanzivanovic/Sites/e-commerce/src/Lib/TestRouter.php(18): call_user_func_array(Array, Array)
+#4 /Users/vladanzivanovic/Sites/e-commerce/index.php(13): CoreBundle\Lib\TestRouter->match()
+#5 /Users/vladanzivanovic/.composer/vendor/laravel/valet/server.php(151): require('/Users/vladanzi...')
+#6 {main}
+  thrown in /Users/vladanzivanovic/Sites/e-commerce/src/Model/UserModel.php on line 18
+[15-Dec-2018 14:42:27 UTC] PHP Fatal error:  Uncaught Error: Class 'CoreBundle\Entitites\User' not found in /Users/vladanzivanovic/Sites/e-commerce/src/Model/UserModel.php:18
+Stack trace:
+#0 /Users/vladanzivanovic/Sites/e-commerce/src/Components/Api/AuthorizationService.php(35): CoreBundle\Model\UserModel->getUser('vladapoz85@gmai...')
+#1 /Users/vladanzivanovic/Sites/e-commerce/src/Factory/Api/SignInFactory.php(50): CoreBundle\Components\Api\AuthorizationService->authorizeUser('vladapoz85@gmai...', 'fsdfsdf')
+#2 [internal function]: CoreBundle\Factory\Api\SignInFactory->signIn(Object(Symfony\Component\HttpFoundation\Request))
+#3 /Users/vladanzivanovic/Sites/e-commerce/src/Lib/TestRouter.php(18): call_user_func_array(Array, Array)
+#4 /Users/vladanzivanovic/Sites/e-commerce/index.php(13): CoreBundle\Lib\TestRouter->match()
+#5 /Users/vladanzivanovic/.composer/vendor/laravel/valet/server.php(151): require('/Users/vladanzi...')
+#6 {main}
+  thrown in /Users/vladanzivanovic/Sites/e-commerce/src/Model/UserModel.php on line 18
+[15-Dec-2018 14:42:40 UTC] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 262144 bytes) in /Users/vladanzivanovic/Sites/e-commerce/src/Lib/Database/QueryBuilder.php on line 118
+[15-Dec-2018 14:43:10 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method CoreBundle\Lib\Database\QueryBuilder::params() in /Users/vladanzivanovic/Sites/e-commerce/src/Lib/Database/QueryBuilder.php:118
+Stack trace:
+#0 /Users/vladanzivanovic/Sites/e-commerce/src/Core/Data.php(114): CoreBundle\Lib\Database\QueryBuilder->getParameters()
+#1 /Users/vladanzivanovic/Sites/e-commerce/src/Model/UserModel.php(27): CoreBundle\Core\Data->execute('SELECT user.id,...')
+#2 /Users/vladanzivanovic/Sites/e-commerce/src/Components/Api/AuthorizationService.php(35): CoreBundle\Model\UserModel->getUser('vladapoz85@gmai...')
+#3 /Users/vladanzivanovic/Sites/e-commerce/src/Factory/Api/SignInFactory.php(50): CoreBundle\Components\Api\AuthorizationService->authorizeUser('vladapoz85@gmai...', 'fsdfsdf')
+#4 [internal function]: CoreBundle\Factory\Api\SignInFactory->signIn(Object(Symfony\Component\HttpFoundation\Request))
+#5 /Users/vladanzivanovic/Sites/e-commerce/src/Lib/TestRouter.php(18): call_user_func_array(Array, Array)
+#6 /Users/vladanzivanovic/Sites/e-commerce/in in /Users/vladanzivanovic/Sites/e-commerce/src/Lib/Database/QueryBuilder.php on line 118
+[15-Dec-2018 14:55:34 UTC] PHP Fatal error:  Uncaught TypeError: Argument 2 passed to CoreBundle\Core\Data::setResult() must be of the type string, null given, called in /Users/vladanzivanovic/Sites/e-commerce/src/Core/Data.php on line 118 and defined in /Users/vladanzivanovic/Sites/e-commerce/src/Core/Data.php:214
+Stack trace:
+#0 /Users/vladanzivanovic/Sites/e-commerce/src/Core/Data.php(118): CoreBundle\Core\Data->setResult(Object(PDOStatement), NULL)
+#1 /Users/vladanzivanovic/Sites/e-commerce/src/Core/Data.php(176): CoreBundle\Core\Data->execute('SELECT user.id,...', NULL)
+#2 /Users/vladanzivanovic/Sites/e-commerce/src/Model/UserModel.php(27): CoreBundle\Core\Data->oneOrNullResult('SELECT user.id,...')
+#3 /Users/vladanzivanovic/Sites/e-commerce/src/Components/Api/AuthorizationService.php(35): CoreBundle\Model\UserModel->getUser('vladapoz85@gmai...')
+#4 /Users/vladanzivanovic/Sites/e-commerce/src/Factory/Api/SignInFactory.php(50): CoreBundle\Components\Api\AuthorizationService->authorizeUser('vladapoz85@gmai...', 'luka2802')
+#5 [internal function]: Cor in /Users/vladanzivanovic/Sites/e-commerce/src/Core/Data.php on line 214
+[15-Dec-2018 14:56:27 UTC] PHP Fatal error:  Uncaught Error: Call to a member function rowCount() on boolean in /Users/vladanzivanovic/Sites/e-commerce/src/Core/Data.php:178
+Stack trace:
+#0 /Users/vladanzivanovic/Sites/e-commerce/src/Model/UserModel.php(27): CoreBundle\Core\Data->oneOrNullResult('SELECT user.id,...')
+#1 /Users/vladanzivanovic/Sites/e-commerce/src/Components/Api/AuthorizationService.php(35): CoreBundle\Model\UserModel->getUser('vladapoz85@gmai...')
+#2 /Users/vladanzivanovic/Sites/e-commerce/src/Factory/Api/SignInFactory.php(50): CoreBundle\Components\Api\AuthorizationService->authorizeUser('vladapoz85@gmai...', 'luka2802')
+#3 [internal function]: CoreBundle\Factory\Api\SignInFactory->signIn(Object(Symfony\Component\HttpFoundation\Request))
+#4 /Users/vladanzivanovic/Sites/e-commerce/src/Lib/TestRouter.php(18): call_user_func_array(Array, Array)
+#5 /Users/vladanzivanovic/Sites/e-commerce/index.php(13): CoreBundle\Lib\TestRouter->match()
+#6 /Users/vladanzivanovic/.composer/vendor/laravel/valet/server.php(151): require('/Users/vladanzi...')
+ in /Users/vladanzivanovic/Sites/e-commerce/src/Core/Data.php on line 178
+[15-Dec-2018 15:13:02 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function CoreBundle\Components\Api\AuthorizationService::__construct(), 2 passed and exactly 3 expected in /Users/vladanzivanovic/Sites/e-commerce/src/Components/Api/AuthorizationService.php:22
+Stack trace:
+#0 [internal function]: CoreBundle\Components\Api\AuthorizationService->__construct(Object(CoreBundle\Model\UserModel), Object(CoreBundle\Lib\Bcrypt))
+#1 /Users/vladanzivanovic/Sites/e-commerce/vendor/symfony/dependency-injection/ContainerBuilder.php(1169): ReflectionClass->newInstanceArgs(Array)
+#2 /Users/vladanzivanovic/Sites/e-commerce/vendor/symfony/dependency-injection/ContainerBuilder.php(633): Symfony\Component\DependencyInjection\ContainerBuilder->createService(Object(Symfony\Component\DependencyInjection\Definition), Array, true, 'app.authorizati...')
+#3 /Users/vladanzivanovic/Sites/e-commerce/vendor/symfony/dependency-injection/ContainerBuilder.php(587): Symfony\Component\DependencyInjection\ContainerBuilder->doGet('app.authorizati...', 1)
+#4 /Use in /Users/vladanzivanovic/Sites/e-commerce/src/Components/Api/AuthorizationService.php on line 22
+[15-Dec-2018 15:14:30 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function CoreBundle\Components\Api\AuthorizationService::__construct(), 2 passed and exactly 3 expected in /Users/vladanzivanovic/Sites/e-commerce/src/Components/Api/AuthorizationService.php:22
+Stack trace:
+#0 [internal function]: CoreBundle\Components\Api\AuthorizationService->__construct(Object(CoreBundle\Model\UserModel), Object(CoreBundle\Lib\Bcrypt))
+#1 /Users/vladanzivanovic/Sites/e-commerce/vendor/symfony/dependency-injection/ContainerBuilder.php(1169): ReflectionClass->newInstanceArgs(Array)
+#2 /Users/vladanzivanovic/Sites/e-commerce/vendor/symfony/dependency-injection/ContainerBuilder.php(633): Symfony\Component\DependencyInjection\ContainerBuilder->createService(Object(Symfony\Component\DependencyInjection\Definition), Array, true, 'app.authorizati...')
+#3 /Users/vladanzivanovic/Sites/e-commerce/vendor/symfony/dependency-injection/ContainerBuilder.php(587): Symfony\Component\DependencyInjection\ContainerBuilder->doGet('app.authorizati...', 1)
+#4 /Use in /Users/vladanzivanovic/Sites/e-commerce/src/Components/Api/AuthorizationService.php on line 22
+[15-Dec-2018 15:14:50 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function CoreBundle\Components\Api\AuthorizationService::__construct(), 2 passed and exactly 3 expected in /Users/vladanzivanovic/Sites/e-commerce/src/Components/Api/AuthorizationService.php:22
+Stack trace:
+#0 [internal function]: CoreBundle\Components\Api\AuthorizationService->__construct(Object(CoreBundle\Model\UserModel), Object(CoreBundle\Lib\Bcrypt))
+#1 /Users/vladanzivanovic/Sites/e-commerce/vendor/symfony/dependency-injection/ContainerBuilder.php(1169): ReflectionClass->newInstanceArgs(Array)
+#2 /Users/vladanzivanovic/Sites/e-commerce/vendor/symfony/dependency-injection/ContainerBuilder.php(633): Symfony\Component\DependencyInjection\ContainerBuilder->createService(Object(Symfony\Component\DependencyInjection\Definition), Array, true, 'app.authorizati...')
+#3 /Users/vladanzivanovic/Sites/e-commerce/vendor/symfony/dependency-injection/ContainerBuilder.php(587): Symfony\Component\DependencyInjection\ContainerBuilder->doGet('app.authorizati...', 1)
+#4 /Use in /Users/vladanzivanovic/Sites/e-commerce/src/Components/Api/AuthorizationService.php on line 22
+[15-Dec-2018 15:15:16 UTC] PHP Fatal error:  Uncaught Symfony\Component\DependencyInjection\Exception\ServiceNotFoundException: You have requested a non-existent service "app.validator". in /Users/vladanzivanovic/Sites/e-commerce/vendor/symfony/dependency-injection/ContainerBuilder.php:1053
+Stack trace:
+#0 /Users/vladanzivanovic/Sites/e-commerce/vendor/symfony/dependency-injection/ContainerBuilder.php(619): Symfony\Component\DependencyInjection\ContainerBuilder->getDefinition('app.validator')
+#1 /Users/vladanzivanovic/Sites/e-commerce/vendor/symfony/dependency-injection/ContainerBuilder.php(1274): Symfony\Component\DependencyInjection\ContainerBuilder->doGet('app.validator', 1, Array, true)
+#2 /Users/vladanzivanovic/Sites/e-commerce/vendor/symfony/dependency-injection/ContainerBuilder.php(1231): Symfony\Component\DependencyInjection\ContainerBuilder->doResolveServices(Object(Symfony\Component\DependencyInjection\Reference), Array, true)
+#3 /Users/vladanzivanovic/Sites/e-commerce/vendor/symfony/dependency-injection/ContainerBuilder.php(1142): Symfony\Com in /Users/vladanzivanovic/Sites/e-commerce/vendor/symfony/dependency-injection/ContainerBuilder.php on line 1053
+[15-Dec-2018 15:16:10 UTC] PHP Fatal error:  Uncaught TypeError: Argument 3 passed to CoreBundle\Components\Api\AuthorizationService::__construct() must be an instance of CoreBundle\Helper\SessionHelper, instance of CoreBundle\Validators\AuthenticationValidator given in /Users/vladanzivanovic/Sites/e-commerce/src/Components/Api/AuthorizationService.php:22
+Stack trace:
+#0 [internal function]: CoreBundle\Components\Api\AuthorizationService->__construct(Object(CoreBundle\Model\UserModel), Object(CoreBundle\Lib\Bcrypt), Object(CoreBundle\Validators\AuthenticationValidator))
+#1 /Users/vladanzivanovic/Sites/e-commerce/vendor/symfony/dependency-injection/ContainerBuilder.php(1169): ReflectionClass->newInstanceArgs(Array)
+#2 /Users/vladanzivanovic/Sites/e-commerce/vendor/symfony/dependency-injection/ContainerBuilder.php(633): Symfony\Component\DependencyInjection\ContainerBuilder->createService(Object(Symfony\Component\DependencyInjection\Definition), Array, true, 'app.authorizati...')
+#3 /Users/vladanzivanovic/Sites/e-commerce/vendor/symfony/dependency-injecti in /Users/vladanzivanovic/Sites/e-commerce/src/Components/Api/AuthorizationService.php on line 22
+[15-Dec-2018 15:18:21 UTC] PHP Warning:  require_once(/Users/vladanzivanovic/Sites/e-commerce/src/Factory/Pages/src/Resources/Views/header.php): failed to open stream: No such file or directory in /Users/vladanzivanovic/Sites/e-commerce/src/Factory/Pages/SignInFactory.php on line 27
+[15-Dec-2018 15:18:21 UTC] PHP Fatal error:  require_once(): Failed opening required '/Users/vladanzivanovic/Sites/e-commerce/src/Factory/Pages/src/Resources/Views/header.php' (include_path='.:/usr/local/Cellar/php@7.2/7.2.13/share/php@7.2/pear') in /Users/vladanzivanovic/Sites/e-commerce/src/Factory/Pages/SignInFactory.php on line 27
+[15-Dec-2018 15:47:38 UTC] PHP Fatal error:  Uncaught Symfony\Component\Yaml\Exception\ParseException: A colon cannot be used in an unquoted mapping value at line 26 (near "    - '@app.bcrypt'"). in /Users/vladanzivanovic/Sites/e-commerce/vendor/symfony/yaml/Parser.php:760
+Stack trace:
+#0 /Users/vladanzivanovic/Sites/e-commerce/vendor/symfony/yaml/Parser.php(387): Symfony\Component\Yaml\Parser->parseValue('CoreBundle\\Comp...', 768, 'mapping')
+#1 /Users/vladanzivanovic/Sites/e-commerce/vendor/symfony/yaml/Parser.php(504): Symfony\Component\Yaml\Parser->doParse('class: CoreBund...', 768)
+#2 /Users/vladanzivanovic/Sites/e-commerce/vendor/symfony/yaml/Parser.php(365): Symfony\Component\Yaml\Parser->parseBlock(23, 'class: CoreBund...', 768)
+#3 /Users/vladanzivanovic/Sites/e-commerce/vendor/symfony/yaml/Parser.php(504): Symfony\Component\Yaml\Parser->doParse(Array, 768)
+#4 /Users/vladanzivanovic/Sites/e-commerce/vendor/symfony/yaml/Parser.php(365): Symfony\Component\Yaml\Parser->parseBlock(1, 'app.bcrypt:\n  c...', 768)
+#5 /Users/vladanzivanovic/Sites/e-comm in /Users/vladanzivanovic/Sites/e-commerce/vendor/symfony/config/Loader/FileLoader.php on line 168
+[15-Dec-2018 15:48:58 UTC] PHP Fatal error:  Uncaught Error: Call to a member function getQueryBuilder() on null in /Users/vladanzivanovic/Sites/e-commerce/src/Components/Api/RegistrationService.php:29
+Stack trace:
+#0 /Users/vladanzivanovic/Sites/e-commerce/src/Factory/Api/SignUpFactory.php(60): CoreBundle\Components\Api\RegistrationService->signUp(Array)
+#1 [internal function]: CoreBundle\Factory\Api\SignUpFactory->signUp(Object(Symfony\Component\HttpFoundation\Request))
+#2 /Users/vladanzivanovic/Sites/e-commerce/src/Lib/TestRouter.php(18): call_user_func_array(Array, Array)
+#3 /Users/vladanzivanovic/Sites/e-commerce/index.php(13): CoreBundle\Lib\TestRouter->match()
+#4 /Users/vladanzivanovic/.composer/vendor/laravel/valet/server.php(151): require('/Users/vladanzi...')
+#5 {main}
+  thrown in /Users/vladanzivanovic/Sites/e-commerce/src/Components/Api/RegistrationService.php on line 29
+[15-Dec-2018 15:49:24 UTC] PHP Fatal error:  Uncaught Error: Call to a member function getQueryBuilder() on null in /Users/vladanzivanovic/Sites/e-commerce/src/Components/Api/RegistrationService.php:29
+Stack trace:
+#0 /Users/vladanzivanovic/Sites/e-commerce/src/Factory/Api/SignUpFactory.php(60): CoreBundle\Components\Api\RegistrationService->signUp(Array)
+#1 [internal function]: CoreBundle\Factory\Api\SignUpFactory->signUp(Object(Symfony\Component\HttpFoundation\Request))
+#2 /Users/vladanzivanovic/Sites/e-commerce/src/Lib/TestRouter.php(18): call_user_func_array(Array, Array)
+#3 /Users/vladanzivanovic/Sites/e-commerce/index.php(13): CoreBundle\Lib\TestRouter->match()
+#4 /Users/vladanzivanovic/.composer/vendor/laravel/valet/server.php(151): require('/Users/vladanzi...')
+#5 {main}
+  thrown in /Users/vladanzivanovic/Sites/e-commerce/src/Components/Api/RegistrationService.php on line 29
+[15-Dec-2018 15:57:36 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[21S01]: Insert value list does not match column list: 1136 Column count doesn't match value count at row 1 in /Users/vladanzivanovic/Sites/e-commerce/src/Core/Data.php:94
+Stack trace:
+#0 /Users/vladanzivanovic/Sites/e-commerce/src/Core/Data.php(94): PDO->prepare('INSERT INTO use...')
+#1 /Users/vladanzivanovic/Sites/e-commerce/src/Core/Data.php(112): CoreBundle\Core\Data->execute('INSERT INTO use...', NULL)
+#2 /Users/vladanzivanovic/Sites/e-commerce/src/Components/Api/RegistrationService.php(45): CoreBundle\Core\Data->write('INSERT INTO use...')
+#3 /Users/vladanzivanovic/Sites/e-commerce/src/Factory/Api/SignUpFactory.php(60): CoreBundle\Components\Api\RegistrationService->signUp(Array)
+#4 [internal function]: CoreBundle\Factory\Api\SignUpFactory->signUp(Object(Symfony\Component\HttpFoundation\Request))
+#5 /Users/vladanzivanovic/Sites/e-commerce/src/Lib/TestRouter.php(18): call_user_func_array(Array, Array)
+#6 /Users/vladanzivanovic/Sites/e-commerce/index.php(13): CoreBundle\Lib\ in /Users/vladanzivanovic/Sites/e-commerce/src/Core/Data.php on line 94
+[15-Dec-2018 15:57:53 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[21S01]: Insert value list does not match column list: 1136 Column count doesn't match value count at row 1 in /Users/vladanzivanovic/Sites/e-commerce/src/Core/Data.php:94
+Stack trace:
+#0 /Users/vladanzivanovic/Sites/e-commerce/src/Core/Data.php(94): PDO->prepare('INSERT INTO use...')
+#1 /Users/vladanzivanovic/Sites/e-commerce/src/Core/Data.php(112): CoreBundle\Core\Data->execute('INSERT INTO use...', NULL)
+#2 /Users/vladanzivanovic/Sites/e-commerce/src/Components/Api/RegistrationService.php(45): CoreBundle\Core\Data->write('INSERT INTO use...')
+#3 /Users/vladanzivanovic/Sites/e-commerce/src/Factory/Api/SignUpFactory.php(60): CoreBundle\Components\Api\RegistrationService->signUp(Array)
+#4 [internal function]: CoreBundle\Factory\Api\SignUpFactory->signUp(Object(Symfony\Component\HttpFoundation\Request))
+#5 /Users/vladanzivanovic/Sites/e-commerce/src/Lib/TestRouter.php(18): call_user_func_array(Array, Array)
+#6 /Users/vladanzivanovic/Sites/e-commerce/index.php(13): CoreBundle\Lib\ in /Users/vladanzivanovic/Sites/e-commerce/src/Core/Data.php on line 94
+[15-Dec-2018 16:03:14 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[21S01]: Insert value list does not match column list: 1136 Column count doesn't match value count at row 1 in /Users/vladanzivanovic/Sites/e-commerce/src/Core/Data.php:94
+Stack trace:
+#0 /Users/vladanzivanovic/Sites/e-commerce/src/Core/Data.php(94): PDO->prepare('INSERT INTO use...')
+#1 /Users/vladanzivanovic/Sites/e-commerce/src/Core/Data.php(112): CoreBundle\Core\Data->execute('INSERT INTO use...', NULL)
+#2 /Users/vladanzivanovic/Sites/e-commerce/src/Components/Api/RegistrationService.php(45): CoreBundle\Core\Data->write('INSERT INTO use...')
+#3 /Users/vladanzivanovic/Sites/e-commerce/src/Factory/Api/SignUpFactory.php(60): CoreBundle\Components\Api\RegistrationService->signUp(Array)
+#4 [internal function]: CoreBundle\Factory\Api\SignUpFactory->signUp(Object(Symfony\Component\HttpFoundation\Request))
+#5 /Users/vladanzivanovic/Sites/e-commerce/src/Lib/TestRouter.php(18): call_user_func_array(Array, Array)
+#6 /Users/vladanzivanovic/Sites/e-commerce/index.php(13): CoreBundle\Lib\ in /Users/vladanzivanovic/Sites/e-commerce/src/Core/Data.php on line 94
+[15-Dec-2018 16:03:30 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[21S01]: Insert value list does not match column list: 1136 Column count doesn't match value count at row 1 in /Users/vladanzivanovic/Sites/e-commerce/src/Core/Data.php:94
+Stack trace:
+#0 /Users/vladanzivanovic/Sites/e-commerce/src/Core/Data.php(94): PDO->prepare('INSERT INTO use...')
+#1 /Users/vladanzivanovic/Sites/e-commerce/src/Core/Data.php(112): CoreBundle\Core\Data->execute('INSERT INTO use...', NULL)
+#2 /Users/vladanzivanovic/Sites/e-commerce/src/Components/Api/RegistrationService.php(45): CoreBundle\Core\Data->write('INSERT INTO use...')
+#3 /Users/vladanzivanovic/Sites/e-commerce/src/Factory/Api/SignUpFactory.php(60): CoreBundle\Components\Api\RegistrationService->signUp(Array)
+#4 [internal function]: CoreBundle\Factory\Api\SignUpFactory->signUp(Object(Symfony\Component\HttpFoundation\Request))
+#5 /Users/vladanzivanovic/Sites/e-commerce/src/Lib/TestRouter.php(18): call_user_func_array(Array, Array)
+#6 /Users/vladanzivanovic/Sites/e-commerce/index.php(13): CoreBundle\Lib\ in /Users/vladanzivanovic/Sites/e-commerce/src/Core/Data.php on line 94
+[15-Dec-2018 16:04:17 UTC] PHP Parse error:  syntax error, unexpected 'return' (T_RETURN) in /Users/vladanzivanovic/Sites/e-commerce/src/Lib/Database/GenerateQuery.php on line 41
+[15-Dec-2018 16:06:23 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /Users/vladanzivanovic/Sites/e-commerce/src/Lib/Database/GenerateQuery.php on line 36
+[15-Dec-2018 16:07:09 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY093]: Invalid parameter number: Columns/Parameters are 1-based in /Users/vladanzivanovic/Sites/e-commerce/src/Core/Data.php:99
+Stack trace:
+#0 /Users/vladanzivanovic/Sites/e-commerce/src/Core/Data.php(99): PDOStatement->bindParam(0, 'Vladan')
+#1 /Users/vladanzivanovic/Sites/e-commerce/src/Core/Data.php(112): CoreBundle\Core\Data->execute('INSERT INTO use...', NULL)
+#2 /Users/vladanzivanovic/Sites/e-commerce/src/Components/Api/RegistrationService.php(45): CoreBundle\Core\Data->write('INSERT INTO use...')
+#3 /Users/vladanzivanovic/Sites/e-commerce/src/Factory/Api/SignUpFactory.php(60): CoreBundle\Components\Api\RegistrationService->signUp(Array)
+#4 [internal function]: CoreBundle\Factory\Api\SignUpFactory->signUp(Object(Symfony\Component\HttpFoundation\Request))
+#5 /Users/vladanzivanovic/Sites/e-commerce/src/Lib/TestRouter.php(18): call_user_func_array(Array, Array)
+#6 /Users/vladanzivanovic/Sites/e-commerce/index.php(13): CoreBundle\Lib\TestRouter->match()
+#7 /Users/vladanziva in /Users/vladanzivanovic/Sites/e-commerce/src/Core/Data.php on line 99
