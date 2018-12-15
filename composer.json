@@ -33,21 +33,8 @@
   "scripts": {
     "develop": [
       "composer dump-autoload",
-      "composer install"
-    ],
-    "develop7": [
-      "/opt/php-7.1/bin/php /usr/local/bin/composer dump-autoload",
-      "/opt/php-7.1/bin/php /usr/local/bin/composer install",
-      "/opt/php-7.1/bin/php vendor/bin/phinx migrate",
-      "npm install",
-      "curl http://test.lea-shoes.com/api/minifier.php"
-    ],
-    "production": [
-      "/opt/php-7.1/bin/php /usr/local/bin/composer dump-autoload",
-      "/opt/php-7.1/bin/php /usr/local/bin/composer install",
-      "/opt/php-7.1/bin/php vendor/bin/phinx migrate -e production",
-      "npm install",
-      "curl https://lea-shoes.com/api/minifier.php"
+      "composer install",
+      "npm run dev"
     ]
   }
 }
